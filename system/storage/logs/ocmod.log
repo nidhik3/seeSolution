@@ -1,0 +1,160 @@
+2024-06-20 5:29:12 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: cmd.ocmod.xml
+
+FILE: catalog/controller/common/header.php
+CODE: // For page specific css
+LINE: 138
+----------------------------------------------------------------
+MOD: d_opencart_patch
+
+FILE: admin/controller/extension/extension/dashboard.php
+CODE: 'dashboard_' . $this->request->get['extension']
+LINE: 18
+LINE: 40
+CODE: $this->load->controller('extension/dashboard/' . $this->request->get['extension'] . '/uninstall');
+LINE: 48
+CODE: $this->model_extension_extension->uninstall('dashboard', $value);
+LINE: 94
+
+FILE: admin/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 9
+LINE: 20
+
+FILE: admin/controller/extension/extension/feed.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/feed/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/fraud.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/fraud/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/module.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/module/' . $this->request->get['extension']);
+LINE: 32
+CODE: $data['extensions'][] = array(
+LINE: 166
+
+FILE: admin/controller/extension/extension/payment.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/payment/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/shipping.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/shipping/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/theme.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/theme/' . $this->request->get['extension']);
+LINE: 29
+
+FILE: admin/controller/extension/extension/total.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/total/' . $this->request->get['extension']);
+LINE: 29
+
+FILE: catalog/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 27
+LINE: 37
+LINE: 55
+
+FILE: system/library/cart/user.php
+CODE: return in_array($value, $this->permission[$key]);
+LINE: 72
+
+FILE: system/config/catalog.php
+CODE: $_['action_event'] = array(
+LINE: 49
+CODE: class ControllerEventCompatibility extends Controller {
+LINE: 5
+CODE: public function view(&$route, &$data) {
+LINE: 40
+
+FILE: admin/model/localisation/language.php
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "banner_image_description WHERE language_id = '" . (int)$language_id . "'");
+LINE: 221
+
+FILE: admin/view/template/extension/extension/analytics.tpl
+CODE: <?php } ?>
+LINE: 32
+CODE: <?php } else { ?>
+LINE: 48
+
+FILE: admin/controller/user/user_permission.php
+CODE: $path[] = $file . '/*';
+LINE: 361
+CODE: $permission = substr($controller, 0, strrpos($controller, '.'));
+LINE: 377
+
+FILE: admin/controller/extension/installer.php
+CODE: $modification_info = $this->model_extension_modification->getModificationByCode($code);
+LINE: 457
+
+FILE: admin/controller/common/filemanager.php
+CODE: $files = glob($directory . '/' . $filter_name . '*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}', GLOB_BRACE);
+LINE: 47
+CODE: 'jpg',
+LINE: 256
+CODE: 'image/jpeg',
+LINE: 269
+
+FILE: admin/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+
+FILE: catalog/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.22) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: |Quickfix by iSenseLabs
+CODE: 'extension/installer/ftp'
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('ftp', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('localcopy', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------

@@ -1,0 +1,271 @@
+
+  .nav-menu a {
+    color: #fff;
+  }
+
+  .header-scrolled .nav-menu a {
+    color: #333;
+  }
+
+  .nav-menu svg {
+    fill: #fff;
+  }
+
+  .header-scrolled svg {
+    fill: #333 !important;
+  }
+
+  a:hover {
+    text-decoration: none !important;
+  }
+
+  @media (min-width: 768px) {
+    .col-md-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: none;
+    }
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .index-liquid {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+      background-image: url(assets/img/images/index_desktop.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-attachment: fixed;
+      display: none !important;
+      z-index: 999;
+    }
+  }
+
+
+  .index-liquid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/img/images/index_desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    display: block;
+    z-index: 99;
+  }
+
+  .section.landing {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: #333; */
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+
+
+  .top-section {
+    position: absolute;
+    width: 39%;
+    top: 30%;
+    left: 10%;
+    z-index: 99;
+  }
+
+  .side-section {
+    position: absolute;
+    width: 62%;
+    bottom: 0%;
+    right: 0%;
+    z-index: 99;
+    background-color: #fff;
+  }
+
+  @media screen and (max-width: 800px) {
+    .top-heading {
+      color: white;
+      font-weight: 800;
+      font-size: 40px !important;
+      margin-bottom: 60px;
+    }
+  }
+
+  .heading {
+    font-size: 45px !important;
+    font-weight: 900 !important;
+  }
+
+  .top-heading {
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 6px;
+  }
+
+  .p-top {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .icon1 {
+    height: 10vh;
+    /* width:10vw; */
+  }
+
+
+  @media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+      max-width: 1307px !important;
+    }
+  }
+
+  .bw {
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 35px 15px 35px;
+
+  }
+
+  .wb {
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    padding: 15px 35px 15px 35px;
+    border: 1px solid black;
+    font-weight: 500;
+
+
+  }
+
+  .ww {
+    background-color: #fff;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .w {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 15px 35px 15px 35px;
+    border: 1px solid white;
+    font-weight: 500;
+  }
+
+  .w,
+  .wb {
+    transition: background-color 0.5s ease 0.5s, color 0.5s ease 0.5s, font-weight 0.5s ease 0.5s;
+    transition: border-color 0.5s ease;
+  }
+
+  .w:hover,
+  .wb:hover {
+    background-color: #D9FF40;
+    color: black;
+    font-weight: 500;
+    border: transparent;
+  }
+
+  .c1 {
+    position: relative;
+    padding-left: 60px
+  }
+
+  .content {
+    position: absolute;
+    bottom: 0%;
+    left: 100px;
+    padding: 50px;
+    background-color: white;
+    color: rgb(41, 39, 39);
+    max-width: 500px;
+    height: 65%;
+
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  /* ============ */
+  .photo {
+    position: relative;
+  }
+
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .gall {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Semi-transparent overlay */
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.3s ease;
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.3s ease;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .image-container:hover .overlay {
+    opacity: 1;
+    /* Show overlay on hover */
+  }
+
+  .image-container:hover .caption {
+    opacity: 1;
+    /* Show caption on hover */
+  }
+
+  /* ============= */
+
+
+  /* =========== */
+
+
+  /* =========== */

@@ -1,0 +1,22 @@
+form input,
+form textarea {
+	width: 100%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: none;
+	color: #fff;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+	color: #fff;
+}
+
+form button {
+	background: none;
+	border: 1px solid #fff;
+	outline: none;
+	padding: 20px 30px;
+	color: #fff;
+}
