@@ -172,7 +172,7 @@
 
         <div class="col-md-3 t pt-4">
           <div class="col-md-6">
-            <a class="wTop">Contact Us </a>
+            <a class="wTop" href="index.php?route=common/contact">Contact Us </a>
           </div>
 
           <div class="col-md-3 ">
