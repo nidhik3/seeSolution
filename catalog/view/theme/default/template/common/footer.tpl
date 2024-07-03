@@ -1,24 +1,20 @@
-<footer style="background: #333; color:#fff" id="footer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<footer style="background: #0E2E45; color:#fff" id="footer">
   <div class="container">
     <div class="row" style="margin-bottom: 4rem;">
-      <div class="col-lg-3 col-md-6">
-        <a href="index.php?route=common/home"><img style="height: 19rem;" src="assets/img/images/see-logo2.png" title="See Solutions" alt="See Solutions" class="img-responsive" /></a>
+      <div class=" col-md-4">
+        <a href="index.php?route=common/home"><img src="assets/images/footerLogo.png" title="See Solutions"
+            alt="See Solutions" class="img-responsive" /></a>
+        <div class="copyright">
+          &copy; Copyright <strong><span>See Solutions</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="https://theodin.in">The Odin</a>
+        </div>
       </div>
-      <div class="col-lg-3 col-md-6">
-        <h3 class="sub-heading">Contact Us</h3>
-        <address>
-          <ul>
-            <li>
-              <i style="margin-right: 6px;font-size: 17px;" class="icofont-mail"></i><a href="mailto:seesolutions.india@gmail.com">seesolutions.india@gmail.com</a>
-            </li>
-            <li>
-              <i style="margin-right: 6px;font-size: 17px;" class="icofont-phone"></i><a href="tel:9425755530">+91-94257-55530</a>
-            </li>
-          </ul>
-        </address>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <h3 class="sub-heading">Information</h3>
+     
+      <div class="col-md-3">
+        <h3 class="sub-heading">Useful Links</h3>
         <ul>
           <li><a href="index.php?route=information/information&information_id=5">Terms & Conditions</a></li>
           <li><a href="index.php?route=information/information&information_id=3">Privacy Policy</a></li>
@@ -27,22 +23,46 @@
           <li><a href="index.php?route=common/contact">Contact</a></li>
         </ul>
       </div>
-      <div class="col-lg-3 col-md-6">
-        <h3 class="sub-heading">Follow Us</h3>
-        <div class="contact social-links">
-          <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-          <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-          <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
-        </div>
+      <div class=" col-md-3">
+        <h3 class="sub-heading">Contact Us</h3>
+        <address>
+          <ul>
+            <li>
+              <div class="row">
+                <div class="col-md-2 d-flex align-items-center">
+                  <i style="margin-right: 6px;font-size: 17px;"class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="col-md-10 p-0 d-flex align-items-center">
+                  <a href="mailto:seesandt.marketing@gmail.com">seesandt.marketing@gmail.com</a>
+                </div>
+           
+            </li>
+            <li>
+              <div class="row pt-4">
+                <div class="col-md-2 d-flex align-items-center">
+                    <i style="margin-right: 6px; font-size: 17px;" class="icofont-phone"></i>
+                </div>
+                <div class="col-md-10 p-0 d-flex align-items-center">
+                    <a href="tel:9425755530">+91-94257-55530</a>
+                </div>
+            </div>
+            </li>
+            <li>
+              <div class="row pt-4">
+                <div class="col-md-2 pt-3 d-flex  justify-content-center">
+                    <i style="margin-right: 6px; font-size: 17px;" class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="col-md-10 p-0 d-flex justify-content-center">
+                    <a href="">790/8 Dev Ashish Enclave, Kailash Vihar, 
+                    City Centre 2, Gwalior – 474011</a>
+                </div>
+            </div>
+            </li>
+          </ul>
+        </address>
       </div>
     </div>
-    <div class="copyright">
-      &copy; Copyright <strong><span>See Solutions</span></strong>. All Rights Reserved
-    </div>
-    <div class="credits">
-      Designed by <a href="https://theodin.in">The Odin</a>
-    </div>
+
   </div>
 </footer><!-- End #footer -->
 

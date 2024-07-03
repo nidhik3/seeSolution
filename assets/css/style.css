@@ -1,4 +1,7 @@
 /* n */
+
+
+
 .space-y{
 	padding: 60px 0px !important;
 }
@@ -347,7 +350,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
+  /* display: flex; */
 }
 
 .nav-menu > ul > li {
@@ -1046,12 +1049,12 @@ h2.wrapper-heading {
 }
 
 #footer .copyright {
-  text-align: center;
+  padding-top: 20px;
 }
 
 #footer .credits {
   padding-top: 10px;
-  text-align: center;
+  /* text-align: center; */
   font-size: 13px;
   color: #fff;
 }

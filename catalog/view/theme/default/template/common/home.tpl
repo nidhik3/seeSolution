@@ -14,21 +14,20 @@
       </a>
       <!-- <a href="index.php?route=product/choices" class="learn-btn"> <span>SHOP NOW</span></a> -->
     </span>
-    <span class="side-section d-flex justify-content-center pt-2">
-      <div class="col-md-3">
+    <span class="side-section d-flex justify-content-center pt-5">
+      <div class="col-md-2">
         <img src="assets/images/1.png" alt="" class="icon1">
-        <h3>Heading</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque iusto impedit ipsa cumque. </p>
+        <h3 class="side">Full Proof Designs</h3>
       </div>
-      <div class="col-md-3">
-        <img src="assets/images/1.png" alt="" class="icon1">
-        <h3>Heading</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque iusto impedit ipsa cumque. </p>
+
+      <div class="col-md-2">
+        <img src="assets/images/2.png" alt="" class="icon1">
+        <h3 class="side">Great Expertise</h3>
       </div>
-      <div class="col-md-3">
-        <img src="assets/images/1.png" alt="" class="icon1">
-        <h3>Heading</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque iusto impedit ipsa cumque. </p>
+
+      <div class="col-md-2">
+        <img src="assets/images/3.png" alt="" class="icon1">
+        <h3 class="side">Dedicated Workforce</h3>
       </div>
     </span>
 

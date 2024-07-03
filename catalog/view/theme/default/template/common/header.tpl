@@ -93,10 +93,29 @@
       z-index: 999;
       display: none;
     }
-    .t{
-      display: flex;
+
+
+
+    .wTop {
+      background-color: transparent;
+      color: white;
+      font-size: 15px !important;
+      text-align: center;
+      border: 1px solid white;
+      font-weight: 500;
+      transition: background-color 0.5s ease 0.5s, color 0.5s ease 0.5s, font-weight 0.5s ease 0.5s;
+      transition: border-color 0.5s ease;
     }
-    
+
+    .wTop:hover {
+      background-color: white;
+      color: black !important;
+      font-weight: 500;
+      border: transparent;
+    }
+    .Hicons{
+      color: white;
+    }
   </style>
 </head>
 
@@ -105,47 +124,65 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container">
-     
-      <div class="row pt-5 nav-menu  d-lg-block">
-        <div class="col-md-2 t">
-          <?php if ($logo) { ?>
-          <a href="<?php echo $home; ?>"><img id="header-img" src="assets/img/images/see-logo2.png"
+
+      <div class="row nav-menu d-flex justify-content-between  d-lg-block">
+        <div class="col-md-2 t pt-0">
+          <!-- <?php if ($logo) { ?>
+          <a href="<?php echo $home; ?>"><img id="header-img" src="assets/images/logo.png"
               title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
           <?php } else { ?>
           <h1><a href="<?php echo $home; ?>">
               <?php echo $name; ?>
             </a></h1>
-          <?php } ?>
+          <?php } ?> -->
+          <a class="p-0" href="<?php echo $home; ?>"><img src="assets/images/logo.png" alt=""></a>
         </div>
-        <ul class=" d-flex justify-content-evenly">
-          <div class="col-md-2 t">
-            <li class="active"><a href="index.php?route=common/home">Home</a></li>
+
+        <div class="col-md-7 t pt-0">
+          <ul class=" pt-4 ">
+            <div class="col-md-3 t">
+              <li class="active"><a href="index.php?route=common/home">Home</a></li>
+            </div>
+            <div class="col-md-3 t">
+              <li class="drop-down"><a href="">About Us</a>
+                <ul>
+                  <li><a href="index.php?route=common/milestone">Story & Vision</a></li>
+                  <li><a href="index.php?route=common/culture">Culture</a></li>
+                  <li><a href="index.php?route=common/oec">Collaborations</a></li>
+                </ul>
+              </li>
+            </div>
+
+            <div class="col-md-3 t">
+              <li class="drop-down"><a href="#key_areas">Services</a>
+                <ul>
+                  <li><a href="index.php?route=common/wm">Water Management</a></li>
+                  <li><a href="index.php?route=common/seemaintenance">Operations & Maintenance</a></li>
+                  <li><a href="index.php?route=common/chemical">Chemical</a></li>
+                  <li><a href="index.php?route=common/pumps">Pumps</a></li>
+                </ul>
+              </li>
+            </div>
+
+            <div class="col-md-3 t">
+              <li><a href="index.php?route=product/choices">Shop</a></li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="col-md-3 t pt-4">
+          <div class="col-md-6">
+            <a class="wTop">Contact Us </a>
           </div>
-          <div class="col-md-2 t">
-            <li class="drop-down"><a href="">About Us</a>
-              <ul>
-                <li><a href="index.php?route=common/milestone">Story & Vision</a></li>
-                <li><a href="index.php?route=common/culture">Culture</a></li>
-                <li><a href="index.php?route=common/oec">Collaborations</a></li>
-              </ul>
-            </li>
+
+          <div class="col-md-3 ">
+            <i class="fa-regular fa-user Hicons" style="width:100%"></i>
           </div>
-       
-          <div class="col-md-2 t">
-            <li class="drop-down"><a href="#key_areas">Services</a>
-              <ul>
-                <li><a href="index.php?route=common/wm">Water Management</a></li>
-                <li><a href="index.php?route=common/seemaintenance">Operations & Maintenance</a></li>
-                <li><a href="index.php?route=common/chemical">Chemical</a></li>
-                <li><a href="index.php?route=common/pumps">Pumps</a></li>
-              </ul>
-            </li>
+          <div class="col-md-3 d-flex justify-content-center">
+             <i class="fa-solid fa-bag-shopping Hicons"></i>
           </div>
-          
-          <div class="col-md-2 t">
-            <li><a href="index.php?route=product/choices">Shop</a></li>
-          </div>
-        </ul>
+
+        </div>
       </div>
 
     </div>
