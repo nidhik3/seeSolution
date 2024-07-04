@@ -1,0 +1,71 @@
+.image-container {
+    position: relative;
+    text-align: center;
+  }
+
+  .image-container img {
+    display: block;
+  }
+
+  .image-container .bannerH1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    padding: 10px;
+
+  }
+
+  .image-container .bannerp {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    padding: 10px;
+
+  }
+
+  .bannerH1 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .bannerp {
+    font-size: 15px;
+    /* font-weight: 600; */
+  }
+
+  .con1 {
+    background-color: #F2FAFF;
+    /* padding: 50px; */
+  }
+
+  .fonts {
+    font-size: 18px;
+
+  }
+
+  .cl {
+    color: #212529 !important;
+  }
+  .form-control {
+    display: block;
+    width: 79%  !important;
+    height: 5vh !important;
+
+  }
+  .form-controls {
+    display: block;
+    width: 79%  !important;
+    height: 8vh !important;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+  }

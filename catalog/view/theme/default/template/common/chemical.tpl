@@ -1,39 +1,17 @@
+<link rel="stylesheet" href="assets/css/homestyle.css">
+<link rel="stylesheet" href="assets/css/n.css">
 <?php echo $header; ?>
 
 <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
+      <section class="section landing s1">
+    <div class="image-container">
+      <img src="assets/images/contactBanner.png" alt="" style="width: 100%;">
+      <p class="bannerH1">Services</p>
+      <p class="bannerp ">CHEMICALS</p>
+    </div>
+  </section>
 
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Chemicals</h2>
-          <ol>
-            <li><a href="index.php?route=common/home">Home</a></li>
-            <li><a href="index.php?route=common/home">Products & Services</a></li>
-            <li>Chemicals</li>
-          </ol>
-        </div>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
-
-    <section id="about" class="about" style="background-image: url(assets/img/images/chemical101.jpg);background-attachment: fixed;background-size: cover;padding: 0px;">
-      <div class="overlay-about"></div>
-      <div class="container" data-aos="fade-down" data-aos-duration="1000">
-  
-        <div class="row about-content" style="margin: 94px 0px;">
-          <div
-            class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1" style="padding: 0 8em; line-height: 30px;color: #fff;margin: 80px 0px;";>
-            <h1 style="color: #fff;font-weight: bolder;margin-bottom: 4rem;font-size: 25px;">About Us</h1>
-            <p style="text-align: center;font-size:17px;line-height: 4rem;"> We are technological and professionally managed maestro organization aiming at the most valued productivity solutions in the world of water treatment. 
-              SEE has assembled the industry's most complete portfolio of CHEMICAL TECHNOLOGY.<br/>
-              Our is a leading global technology services delivering business solutions to its clients.
-              Water treatment describes a process used to make water more acceptable for a desired end use. These can include usage as drinking water, industrial process, medical and many other users for subsequent utilization.</p>      
-            </div>
-        </div>
-      </div>
-    </section>
 
 
     <!-- ======= Industries We Serve Section ======= -->
