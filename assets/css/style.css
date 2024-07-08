@@ -572,7 +572,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .section-title {
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 10px;
 }
 
@@ -733,8 +733,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .about-content p{
-  font-size: 18px;
-  text-align: justify;
+  font-size: 20px;
+  text-align: left;
   line-height: 3rem;
 }
 
@@ -1012,14 +1012,14 @@ h2.wrapper-heading {
 #footer .sub-heading{
   padding: 22px 42px;
   color: #fff;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 800;
 }
 
 
 #footer ul {
   list-style: none;
-  line-height: 3rem;
+  line-height: 4rem;
 }
 
 @media screen and (max-width: 800px){
@@ -1045,7 +1045,7 @@ h2.wrapper-heading {
   background: #216f37;
   padding: 30px 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 19px;
 }
 
 #footer .copyright {
@@ -1075,7 +1075,7 @@ h2.wrapper-heading {
   max-width: 1140px;
   margin: 0 auto;
   padding: 15px 0;
-  background-color: beige;
+  /* background-color: beige; */
 }
 
 .timeline::after {
@@ -1124,7 +1124,7 @@ h2.wrapper-heading {
 .container-time::before {
   content: '';
   position: absolute;
-  width: 50px;
+  width: 25px;
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
@@ -1183,7 +1183,7 @@ h2.wrapper-heading {
 
 .container-time .content {
   padding: 30px 90px 30px 30px;
-  background: #F6D155;
+  background: #D9FF40;
   position: relative;
   border-radius: 0 500px 500px 0;
 }
@@ -1196,8 +1196,8 @@ h2.wrapper-heading {
 .container-time .content h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
-  font-weight: normal;
-  color: #006E51;
+  font-weight: 900;
+  color: #000000;
 }
 
 .container-time .content p {
@@ -1205,6 +1205,7 @@ h2.wrapper-heading {
   font-size: 16px;
   line-height: 22px;
   color: #000000;
+  font-weight: 500;
 }
 
 @media (max-width: 767.98px) {

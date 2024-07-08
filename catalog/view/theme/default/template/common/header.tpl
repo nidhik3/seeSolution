@@ -144,13 +144,7 @@
               <li class="active"><a href="index.php?route=common/home">Home</a></li>
             </div>
             <div class="col-md-3 t">
-              <li class="drop-down"><a href="">About Us</a>
-                <ul>
-                  <li><a href="index.php?route=common/milestone">Story & Vision</a></li>
-                  <li><a href="index.php?route=common/culture">Culture</a></li>
-                  <li><a href="index.php?route=common/oec">Collaborations</a></li>
-                </ul>
-              </li>
+              <li ><a href="index.php?route=common/milestone">About Us</a> </li>
             </div>
 
             <div class="col-md-3 t">

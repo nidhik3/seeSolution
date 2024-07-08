@@ -2,7 +2,7 @@
 <footer style="background: #0E2E45; color:#fff" id="footer">
   <div class="container">
     <div class="row" style="margin-bottom: 4rem;">
-      <div class=" col-md-4">
+      <div class=" col-md-5">
         <a href="index.php?route=common/home"><img src="assets/images/footerLogo.png" title="See Solutions"
             alt="See Solutions" class="img-responsive" /></a>
         <div class="copyright">
@@ -23,13 +23,13 @@
           <li><a href="index.php?route=common/contact">Contact</a></li>
         </ul>
       </div>
-      <div class=" col-md-3">
+      <div class=" col-md-4">
         <h3 class="sub-heading">Contact Us</h3>
         <address>
           <ul>
             <li>
               <div class="row">
-                <div class="col-md-2 d-flex align-items-center">
+                <div class="col-md-2  d-flex align-items-center">
                   <i style="margin-right: 6px;font-size: 17px;"class="fa-regular fa-envelope"></i>
                 </div>
                 <div class="col-md-10 p-0 d-flex align-items-center">
@@ -49,7 +49,7 @@
             </li>
             <li>
               <div class="row pt-4">
-                <div class="col-md-2 pt-3 d-flex  justify-content-center">
+                <div class="col-md-2 pt-3 d-flex">
                     <i style="margin-right: 6px; font-size: 17px;" class="fa-solid fa-location-dot"></i>
                 </div>
                 <div class="col-md-10 p-0 d-flex justify-content-center">

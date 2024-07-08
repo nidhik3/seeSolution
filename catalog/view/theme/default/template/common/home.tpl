@@ -39,11 +39,11 @@
 
       </div>
       <div class="col-md-9">
-        <img src="assets/images/p.png" alt="" style="width: 100%;">
+        <img src="assets/images/p.png" alt="" style="width: 100%; height: 90%;">
       </div>
 
-      <div class="overlay-content" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-        <div class="content">
+      <div class="overlay-c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        <div class="content1">
           <a class="bw">ABOUT US</a>
           <h6 class="heading" style="width: 50%;">OUR SOLUTION</h6>
           <p class="pb-3" style="width: 85%;">We are Turnkey contractors for Design, Construction, Erection and
@@ -105,9 +105,16 @@
     </div>
   </section>
 
-  <section class="space-y">
-    <img src="assets/images/sec.png" alt="" style="width: 100%;">
+  <section class="image-wrapper">
+    <img src="assets/images/sec.png" alt="" class="background-image">
+    <div class="overlay-content">
+      <a class="ww pt-3">LET'S START</a>
+      <h4 class="heading pb-5" style="font-weight: normal;">GET YOUR SITE ASSESSMENT DONE</h4>
+      <a class="w">Book Now</a>
+    </div>
   </section>
+  
+  
 
   <section class="space-y">
     <div class="container">

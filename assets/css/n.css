@@ -30,11 +30,11 @@
   }
 
   .bannerH1 {
-    font-size: 35px;
+    font-size: 60px;
     font-weight: 600;
   }
   .bannerp {
-    font-size: 15px;
+    font-size: 27px;
     /* font-weight: 600; */
   }
 
@@ -69,3 +69,15 @@
     background-color: #fff;
     border: 1px solid #ced4da;
   }
+  .liTop{
+    margin-top: 3rem;
+  }
+
+  .title{
+    padding-left: 39px;
+  }
+  
+  .arow{
+    padding-left: 197px !important;
+  }
+ 
