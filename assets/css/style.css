@@ -732,11 +732,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-align: center;
 }
 
-.about-content p{
-  font-size: 20px;
-  text-align: left;
-  line-height: 3rem;
-}
+
 
 .about h3 {
   font-weight: 600;
@@ -1081,8 +1077,8 @@ h2.wrapper-heading {
 .timeline::after {
   content: '';
   position: absolute;
-  width: 2px;
-  background: #006E51;
+  width: 3px;
+  background:#383838;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -1104,7 +1100,7 @@ h2.wrapper-heading {
   left: 50%;
 }
 
-.container-time::after {
+/* .container-time::after {
   content: '';
   position: absolute;
   width: 16px;
@@ -1115,7 +1111,7 @@ h2.wrapper-heading {
   border: 2px solid #006E51;
   border-radius: 16px;
   z-index: 1;
-}
+} */
 
 .container-time.right::after {
   left: -8px;
@@ -1124,16 +1120,16 @@ h2.wrapper-heading {
 .container-time::before {
   content: '';
   position: absolute;
-  width: 25px;
+  width: 29px;
   height: 2px;
   top: calc(50% - 1px);
-  right: 8px;
-  background: #006E51;
+  right: 1px;
+  background: #383838;
   z-index: 1;
 }
 
 .container-time.right::before {
-  left: 8px;
+  left: 1px;
 }
 
 .container-time .date {

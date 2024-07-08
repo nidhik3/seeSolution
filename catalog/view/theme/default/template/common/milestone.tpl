@@ -33,7 +33,7 @@
 
     <div class="row space-y d-flex justify-content-between">
 
-      <div class="col-lg-6 col-md-9 col-sm-12">
+      <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
         <div class="col-md-2"></div>
         <div class="col-md-8">
           <div class="row ">
@@ -41,9 +41,9 @@
               <a class="bw">OUR</a>
             </div>
 
-            <h5 class="heading pl-3 pt-2">OUR CULTURE</h5>
-            <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 about-row about-content">
-              <p style="line-height: 31px;">Technology / Product may not always win but execution always wins. Putting
+            <h5 class="heading pl-3 pt-3">OUR CULTURE</h5>
+            <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 about-row clientR about-content">
+              <p class="PZ">Technology / Product may not always win but execution always wins. Putting
                 it simply means that talented people who work closely together for the good of the organization are the
                 real reason why companies succeed. Developing this company culture is strategically important for
                 longevity, productivity and profitability.
@@ -55,21 +55,21 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-md-2">
+        </div>
 
-        <div class="col-md-2"></div>
       </div>
-      <div class="col-md-4 ">
-        <img src="assets/images/culture.png" alt="Vision">
+      <div class="col-md-6 ">
+        <img src="assets/images/culture.png" alt="Vision" style="height: 100%; width: 100%;">
       </div>
     </div>
 
     <div class="row space-y">
-      <div class=" col-md-4 ">
-        <img src="assets/images/quality.png" alt="Quality" style=" width: 100%; height: 100%;">
+      <div class=" col-md-5 ">
+        <img src="assets/images/quality.png" alt="Quality" style="height: 100%; width: 100%;">
       </div>
       <div class="col-md-1"></div>
-      <div class="col-md-6">
+      <div class="col-md-6 d-flex align-items-center">
         <div class="row about-content">
           <div class="section-title" style="text-align: start;">
             <a class="bw">
@@ -78,8 +78,8 @@
             <h2 class="heading">Quality & Compliance</h2>
           </div>
           <div class="col-md-2"></div>
-          <div class="col-md-8">
-            <p style="line-height: 31px;">Due to our honest business standards & transparent deals, we are steadily
+          <div class="col-md-8 ">
+            <p class="PZ">Due to our honest business standards & transparent deals, we are steadily
               making way to the platform of success by offering high quality products at most competitive prices
               keeping in mind that the total cost of ownership for the end user must not go high. We always adhere to
               the best & most suitable manufacturing or service standards & make sure that the product delivered to
@@ -91,7 +91,7 @@
             </p>
           </div>
           <div class="col-md-2"></div>
-          <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 about-row">
+          <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 about-row clientR">
 
           </div>
 
@@ -105,98 +105,8 @@
 
   <!-- clients -->
 
-  <!-- <section id="about" class="about space-y" style="padding-bottom: 0px">
-  <div class="container space-y">
-    <div class="section-title">
-      <h2>Esteem Clients</h2>
-    </div>
-
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Bangur Cement.gif" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Coca Cola.gif" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/MICO - BOSCH.gif" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Shiv Vilas.gif" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Symbiosis.gif" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Taj Hotels.gif" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Akshat Apartments.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Ambuja Cement.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Cambay Resorts.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Fortune Bellacasa.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/HCL.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Holiday Inn.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/HT BURD.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/HT-Media.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/HZL.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/IMSI - Dehradun.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Jal Mahal.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Mahima Real Estate..jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Panchshil Realty.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Pepsi.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Ramada.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/SRF Limited.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/The Lalit.jpg" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Oberoi Rajvilas - Jaipur.png" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/Oberoi.bmp" alt="" />
-    </div>
-    <div class="col-lg-3">
-      <img src="assets/img/images/client/SHREE CEMENT.bmp" alt="" />
-    </div>
-  </div>
-</section> -->
-
-
-
-  <!-- ======= Milestone Section ======= -->
-  <section id="about" class="about " style="padding: 100px 0px; background-color: #F2FAFF;">
-    <div class="container">
+  <section id="about" class="about space-y" style="padding-bottom: 0px">
+    <div class="container space-y ">
       <div class="row d-flex justify-content-center">
         <div class="col-md-1">
           <a class="bw">OUR</a>
@@ -204,16 +114,148 @@
       </div>
 
       <div class="row d-flex justify-content-center">
-        <div class="col-md-4 TEXT-CENTER">
-<h5 class="heading">MILESTONES</h5>
+        <div class="col-md-10 TEXT-CENTER">
+          <h5 class="heading">ESTEEMED CLIENTS</h5>
         </div>
       </div>
 
     </div>
-    <div class="timeline">
+    <div class="container">
+      <div class="clients">
+
+        <div class="row a-row clientR">
+          <div class="col-lg-3 text-center ">
+            <img src="assets/images/client/a1.png" class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/a2.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/a3.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/a4.png"  class="bicon" alt="" />
+          </div>
+        </div>
+
+        <div class="row b-row clientR">
+          <div class="col-lg-3 text-center ">
+            <img src="assets/images/client/b1.png" class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/b2.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/b3.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/b4.png"  class="bicon" alt="" />
+          </div>
+        </div>
+
+        <div class="row c-row clientR">
+          <div class="col-lg-3 text-center ">
+            <img src="assets/images/client/c1.png" class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/c2.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/c3.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/c4.png"  class="bicon" alt="" />
+          </div>
+        </div>
+
+        <div class="row d-row clientR">
+          <div class="col-lg-3 text-center ">
+            <img src="assets/images/client/d1.png" class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/d2.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/d3.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/d4.png"  class="bicon" alt="" />
+          </div>
+        </div>
+
+        <div class="row e-row clientR">
+          <div class="col-lg-3 text-center ">
+            <img src="assets/images/client/e1.png" class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/e2.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/e3.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/e4.png"  class="bicon" alt="" />
+          </div>
+        </div>
+
+        <div class="row f-row clientR">
+          <div class="col-lg-3 text-center ">
+            <img src="assets/images/client/f1.png" class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/f2.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/f3.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/f4.png"  class="bicon" alt="" />
+          </div>
+        </div>
+
+        <div class="row g-row clientR">
+          <div class="col-lg-3 text-center ">
+            <img src="assets/images/client/g1.png" class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <img src="assets/images/client/g2.png"  class="bicon" alt="" />
+          </div>
+          <div class="col-lg-3 text-center">
+            <!-- <img src="assets/images/client/f3.png"  class="bicon" alt="" /> -->
+          </div>
+          <div class="col-lg-3 text-center">
+           ` <!-- <img src="assets/images/client/f4.png"  class="bicon" alt="" /> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+  <!-- ======= Milestone Section ======= -->
+  <section id="about" class="about " style="padding: 100px 0px; background-color: #F2FAFF;">
+    <div class="container  pb-5 ">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-1">
+          <a class="bw">OUR</a>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4TEXT-CENTER">
+          <h5 class="heading">MILESTONES</h5>
+        </div>
+      </div>
+
+    </div>
+    <div class="timeline ">
       <div class="container-time left">
         <!-- <div class="date">15 Dec</div> -->
-        
+
         <div class="content">
           <h2>2002</h2>
           <p>
@@ -222,7 +264,7 @@
         </div>
       </div>
       <div class="container-time right">
-     
+
         <div class="content">
           <h2>2004</h2>
           <p>
@@ -231,7 +273,7 @@
         </div>
       </div>
       <div class="container-time left">
-      
+
         <div class="content">
           <h2>2005</h2>
           <p>
@@ -240,7 +282,7 @@
         </div>
       </div>
       <div class="container-time right">
-        
+
         <div class="content">
           <h2>2005</h2>
           <p>
@@ -249,7 +291,7 @@
         </div>
       </div>
       <div class="container-time left">
-        
+
         <div class="content">
           <h2>2006</h2>
           <p>
@@ -258,7 +300,7 @@
         </div>
       </div>
       <div class="container-time right">
-      
+
         <div class="content">
           <h2>2006</h2>
           <p>
@@ -267,7 +309,7 @@
         </div>
       </div>
       <div class="container-time left">
-  
+
         <div class="content">
           <h2>2008</h2>
           <p>
@@ -276,7 +318,7 @@
         </div>
       </div>
       <div class="container-time right">
-        
+
         <div class="content">
           <h2>2009</h2>
           <p>
@@ -285,7 +327,7 @@
         </div>
       </div>
       <div class="container-time left">
-       
+
         <div class="content">
           <h2>2010</h2>
           <p>
@@ -303,7 +345,7 @@
         </div>
       </div>
       <div class="container-time left">
-     
+
         <div class="content">
           <h2>2014</h2>
           <p>
@@ -345,8 +387,10 @@
         believe that the future of our group depends on the way SEE, Its Team including all teammates esteemed customers
         & support partners including vendors jointly care for serenity of environment.</p>
       <br />
-    <i>  <h2>Lets do it for our customers for what they actually need in the way we endeavor to provide the best of our
-        products & services......</h2></i>
+      <i>
+        <h2>Lets do it for our customers for what they actually need in the way we endeavor to provide the best of our
+          products & services......</h2>
+      </i>
 
     </div>
 
