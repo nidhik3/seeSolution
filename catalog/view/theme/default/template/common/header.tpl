@@ -113,7 +113,8 @@
       font-weight: 500;
       border: transparent;
     }
-    .Hicons{
+
+    .Hicons {
       color: white;
     }
   </style>
@@ -144,7 +145,7 @@
               <li class="active"><a href="index.php?route=common/home">Home</a></li>
             </div>
             <div class="col-md-3 t">
-              <li ><a href="index.php?route=common/milestone">About Us</a> </li>
+              <li><a href="index.php?route=common/milestone">About Us</a> </li>
             </div>
 
             <div class="col-md-3 t">
@@ -173,7 +174,7 @@
             <i class="fa-regular fa-user Hicons" style="width:100%"></i>
           </div>
           <div class="col-md-3 d-flex justify-content-center">
-             <i class="fa-solid fa-bag-shopping Hicons"></i>
+            <i class="fa-solid fa-bag-shopping Hicons"></i>
           </div>
 
         </div>
