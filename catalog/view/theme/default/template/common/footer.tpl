@@ -124,7 +124,7 @@
     <div class="container">
       <div class="row" style="margin-bottom: 4rem;">
         <div class=" col-md-5">
-          <a href="index.php?route=common/home"><img src="assets/images/footerLogo.png" title="See Solutions"
+          <a href="index.php?route=common/home"><img src="assets/images/footer/footerLogo.png" title="See Solutions"
               alt="See Solutions" class="img-responsive" /></a>
           <div class="copyright">
             &copy; Copyright <strong><span>See Solutions</span></strong>. All Rights Reserved

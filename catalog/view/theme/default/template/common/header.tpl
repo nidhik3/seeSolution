@@ -136,7 +136,7 @@
               <?php echo $name; ?>
             </a></h1>
           <?php } ?> -->
-          <a class="p-0" href="<?php echo $home; ?>"><img src="assets/images/logo.png" alt=""></a>
+          <a class="p-0" href="<?php echo $home; ?>"><img src="assets/images/header/logo.png" alt=""></a>
         </div>
 
         <div class="col-md-7 t pt-0">
@@ -171,10 +171,12 @@
           </div>
 
           <div class="col-md-3 ">
-            <i class="fa-regular fa-user Hicons" style="width:100%"></i>
+            <!-- <i class="fa-regular fa-user Hicons" style="width:100%"></i> -->
+             <img src="assets/images/header/user.png" alt="" class="Hicons">
           </div>
-          <div class="col-md-3 d-flex justify-content-center">
-            <i class="fa-solid fa-bag-shopping Hicons"></i>
+          <div class="col-md-3 ">
+            <!-- <i class="fa-solid fa-bag-shopping Hicons"></i> -->
+             <img src="assets/images/header/bag.png" alt=""  class="Hicons">
           </div>
 
         </div>

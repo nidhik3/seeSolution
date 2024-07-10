@@ -55,21 +55,25 @@
     color: #fff;
   }
  */
-    .overlay {
+    /* .overlay {
       background-color: rgba(0, 0, 0, 0.3);
+    } */
+
+    .overlay-content1 {
+      top: 75% !important;
     }
 
     .overlay,
     [class*="overlay"] {
       position: absolute;
       height: 100%;
-      width: 100%;
+      /* width: 100%; */
       z-index: 5;
       display: block;
-      top: 0;
+      top: 50%;
       left: 0;
       z-index: 2;
-      background-color: rgba(0, 0, 0, 0.6);
+      /* background-color: rgba(0, 0, 0, 0.6); */
       transition: background-color 1s ease;
     }
 
@@ -149,6 +153,10 @@
     .svg-wrapper:hover .shape2 {
       stroke-dashoffset: 0;
       stroke-dasharray: 1120;
+    }
+
+    .overlay-content1 {
+      left: 50%;
     }
   </style>
 
