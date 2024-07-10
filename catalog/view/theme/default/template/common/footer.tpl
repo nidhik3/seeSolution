@@ -78,99 +78,119 @@
   .dot:hover {
     background-color: #717171;
   }
+.foot{
+  position: relative;
+}
+
+  .socialI {
+   position: absolute;
+   top: 45%;
+   right: 10%;
+  }
+
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-<div class="slider">
-  <div class="slides">
-    <div class="slide"><img src="assets/images/buildings.png" alt="Image 1"></div>
-    <div class="slide"><img src="assets/images/culture.png" alt="Image 2"></div>
-    <div class="slide"><img src="assets/images/chemical.png" alt="Image 3"></div>
+<div class="foot">
+  <div class="slider">
+    <div class="slides">
+      <div class="slide"><img src="assets/images/buildings.png" alt="Image 1"></div>
+      <div class="slide"><img src="assets/images/culture.png" alt="Image 2"></div>
+      <div class="slide"><img src="assets/images/chemical.png" alt="Image 3"></div>
+      <div class="container">
+        <div class="overlay-content1  text-start">
+          <a class="ww pt-3">LET'S START</a>
+          <h4 class="heading pb-5" style="font-weight: normal;">SHOP OUR PREMIUM <br>
+            PRODUCTS</h4>
+          <a class="w">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="dots ">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot pt-3" onclick="currentSlide(2)"></span>
+      <span class="dot pt-3" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+
+  <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a> -->
+  <!-- <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+  <footer style="background: #0E2E45; color:#fff" id="footer">
+    <div class="socialI">
+      <img src="assets/images/footer/fb.png" alt="i">
+      <img src="assets/images/footer/ig.png" alt="i">
+      <img src="assets/images/footer/w.png" alt="i">
+    </div>
     <div class="container">
-      <div class="overlay-content1  text-start">
-        <a class="ww pt-3">LET'S START</a>
-        <h4 class="heading pb-5" style="font-weight: normal;">SHOP OUR PREMIUM <br>
-          PRODUCTS</h4>
-        <a class="w">Shop Now</a>
-      </div>
-    </div>
-  </div>
-  <div class="dots ">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot pt-3" onclick="currentSlide(2)"></span>
-    <span class="dot pt-3" onclick="currentSlide(3)"></span>
-  </div>
-</div>
-
-</div>
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-<footer style="background: #0E2E45; color:#fff" id="footer">
-  <div class="container">
-    <div class="row" style="margin-bottom: 4rem;">
-      <div class=" col-md-5">
-        <a href="index.php?route=common/home"><img src="assets/images/footerLogo.png" title="See Solutions"
-            alt="See Solutions" class="img-responsive" /></a>
-        <div class="copyright">
-          &copy; Copyright <strong><span>See Solutions</span></strong>. All Rights Reserved
+      <div class="row" style="margin-bottom: 4rem;">
+        <div class=" col-md-5">
+          <a href="index.php?route=common/home"><img src="assets/images/footerLogo.png" title="See Solutions"
+              alt="See Solutions" class="img-responsive" /></a>
+          <div class="copyright">
+            &copy; Copyright <strong><span>See Solutions</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="https://theodin.in">The Odin</a>
+          </div>
         </div>
-        <div class="credits">
-          Designed by <a href="https://theodin.in">The Odin</a>
-        </div>
-      </div>
 
-      <div class="col-md-3">
-        <h3 class="sub-heading">Useful Links</h3>
-        <ul>
-          <li><a href="index.php?route=information/information&information_id=5">Terms & Conditions</a></li>
-          <li><a href="index.php?route=information/information&information_id=3">Privacy Policy</a></li>
-          <li><a href="index.php?route=information/information&information_id=6">Shipping & Returns</a></li>
-
-          <li><a href="index.php?route=common/contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class=" col-md-4">
-        <h3 class="sub-heading">Contact Us</h3>
-        <address>
+        <div class="col-md-3">
+          <h3 class="sub-heading">Useful Links</h3>
           <ul>
-            <li>
-              <div class="row">
-                <div class="col-md-2  d-flex align-items-center">
-                  <i style="margin-right: 6px;font-size: 17px;" class="fa-regular fa-envelope"></i>
-                </div>
-                <div class="col-md-10 p-0 d-flex align-items-center">
-                  <a href="mailto:seesandt.marketing@gmail.com">seesandt.marketing@gmail.com</a>
+            <li><a href="index.php?route=information/information&information_id=5">Terms & Conditions</a></li>
+            <li><a href="index.php?route=information/information&information_id=3">Privacy Policy</a></li>
+            <li><a href="index.php?route=information/information&information_id=6">Shipping & Returns</a></li>
+
+            <li><a href="index.php?route=common/contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class=" col-md-4">
+          <h3 class="sub-heading">Contact Us</h3>
+          <address>
+            <ul>
+              <li>
+                <div class="row">
+                  <div class="col-md-2  d-flex align-items-center">
+                    <i style="margin-right: 6px;font-size: 17px;" class="fa-regular fa-envelope"></i>
+                  </div>
+                  <div class="col-md-10 p-0 d-flex align-items-center">
+                    <a href="mailto:seesandt.marketing@gmail.com">seesandt.marketing@gmail.com</a>
+                  </div>
                 </div>
 
-            </li>
-            <li>
-              <div class="row pt-4">
-                <div class="col-md-2 d-flex align-items-center">
-                  <i style="margin-right: 6px; font-size: 17px;" class="icofont-phone"></i>
+              </li>
+              <li>
+                <div class="row pt-4">
+                  <div class="col-md-2 d-flex align-items-center">
+                    <i style="margin-right: 6px; font-size: 17px;" class="icofont-phone"></i>
+                  </div>
+                  <div class="col-md-10 p-0 d-flex align-items-center">
+                    <a href="tel:9425755530">+91-94257-55530</a>
+                  </div>
                 </div>
-                <div class="col-md-10 p-0 d-flex align-items-center">
-                  <a href="tel:9425755530">+91-94257-55530</a>
+              </li>
+              <li>
+                <div class="row pt-4">
+                  <div class="col-md-2 pt-3 d-flex">
+                    <i style="margin-right: 6px; font-size: 17px;" class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="col-md-10 p-0 d-flex justify-content-center">
+                    <a href="">790/8 Dev Ashish Enclave, Kailash Vihar,
+                      City Centre 2, Gwalior – 474011</a>
+                  </div>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div class="row pt-4">
-                <div class="col-md-2 pt-3 d-flex">
-                  <i style="margin-right: 6px; font-size: 17px;" class="fa-solid fa-location-dot"></i>
-                </div>
-                <div class="col-md-10 p-0 d-flex justify-content-center">
-                  <a href="">790/8 Dev Ashish Enclave, Kailash Vihar,
-                    City Centre 2, Gwalior – 474011</a>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </address>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
+
     </div>
 
-  </div>
-</footer><!-- End #footer -->
+
+  </footer><!-- End #footer -->
+</div>
+
 
 <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
