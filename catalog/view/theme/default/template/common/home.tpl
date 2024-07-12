@@ -14,7 +14,7 @@
       </a>
       <!-- <a href="index.php?route=product/choices" class="learn-btn"> <span>SHOP NOW</span></a> -->
     </span>
-    <span class="side-section d-flex justify-content-center pt-5">
+    <span class="side-section pt-5">
       <div class="col-md-2">
         <img src="assets/images/1.png" alt="" class="icon1">
         <h3 class="side">Full Proof Designs</h3>

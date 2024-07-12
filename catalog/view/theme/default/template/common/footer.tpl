@@ -87,6 +87,11 @@
    top: 45%;
    right: 10%;
   }
+  .sicon{
+    padding-right: 20px;
+
+  }
+
 
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -95,7 +100,7 @@
   <div class="slider">
     <div class="slides">
       <div class="slide"><img src="assets/images/buildings.png" alt="Image 1"></div>
-      <div class="slide"><img src="assets/images/culture.png" alt="Image 2"></div>
+      <div class="slide "><img src="assets/images/culture.png" alt="Image 2"></div>
       <div class="slide"><img src="assets/images/chemical.png" alt="Image 3"></div>
       <div class="container">
         <div class="overlay-content1  text-start">
@@ -117,9 +122,16 @@
   <!-- <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
   <footer style="background: #0E2E45; color:#fff" id="footer">
     <div class="socialI">
-      <img src="assets/images/footer/fb.png" alt="i">
-      <img src="assets/images/footer/ig.png" alt="i">
-      <img src="assets/images/footer/w.png" alt="i">
+      <a href="" class="social-icon fb" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="social-icon ig" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="social-icon wa" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+     
     </div>
     <div class="container">
       <div class="row" style="margin-bottom: 4rem;">

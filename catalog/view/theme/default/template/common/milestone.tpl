@@ -253,7 +253,7 @@
 
     </div>
     <div class="timeline ">
-      <div class="container-time left">
+      <div class="container-time left start">
         <!-- <div class="date">15 Dec</div> -->
 
         <div class="content">
@@ -283,7 +283,7 @@
       </div>
       <div class="container-time right">
 
-        <div class="content">
+        <div class="content ">
           <h2>2005</h2>
           <p>
             Manufacturing of Ozone Genertors for Water, Air & Waste Water Applications
@@ -353,7 +353,7 @@
           </p>
         </div>
       </div>
-      <div class="container-time right">
+      <div class="container-time right end">
 
         <div class="content">
           <h2>2015</h2>

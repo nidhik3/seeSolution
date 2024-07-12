@@ -1100,18 +1100,31 @@ h2.wrapper-heading {
   left: 50%;
 }
 
-/* .container-time::after {
+.container-time.end::after {
   content: '';
   position: absolute;
-  width: 16px;
-  height: 16px;
-  top: calc(50% - 8px);
-  right: -8px;
-  background: #ffffff;
-  border: 2px solid #006E51;
+  width: 14px;
+  height: 14px;
+  bottom: -15px;
+  background: #1b1b1b;
   border-radius: 16px;
   z-index: 1;
-} */
+  right: -55px;
+}
+.container-time.start::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-top: 14px solid #1b1b1b;
+  top: -15px;
+  right: -14px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  z-index: 1;
+}
 
 .container-time.right::after {
   left: -8px;

@@ -3,7 +3,14 @@
     color: #fff;
   }
 
-  .header-scrolled .nav-menu a {
+  .side-section{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header-scrolled .nav-menu a  {
+    color: #333;
+  }
+  .header-scrolled .nav-menu i  {
     color: #333;
   }
 

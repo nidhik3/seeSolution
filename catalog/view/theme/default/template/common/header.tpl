@@ -117,6 +117,10 @@
     .Hicons {
       color: white;
     }
+    .icon-size {
+      font-size: 23px; 
+}
+
   </style>
 </head>
 
@@ -170,13 +174,13 @@
             <a class="wTop" href="index.php?route=common/contact">Contact Us </a>
           </div>
 
-          <div class="col-md-3 ">
-            <!-- <i class="fa-regular fa-user Hicons" style="width:100%"></i> -->
-             <img src="assets/images/header/user.png" alt="" class="Hicons">
+          <div class="col-md-3 pt-4">
+            <i class="fa-regular fa-user Hicons icon-size"></i>
+            <!-- <img src="assets/images/header/user.png" alt="" class="Hicons"> -->
           </div>
-          <div class="col-md-3 ">
-            <!-- <i class="fa-solid fa-bag-shopping Hicons"></i> -->
-             <img src="assets/images/header/bag.png" alt=""  class="Hicons">
+          <div class="col-md-3  pt-4 ">
+            <i class="fa-solid fa-bag-shopping Hicons icon-size"></i>
+            <!-- <img src="assets/images/header/bag.png" alt="" class="Hicons"> -->
           </div>
 
         </div>
