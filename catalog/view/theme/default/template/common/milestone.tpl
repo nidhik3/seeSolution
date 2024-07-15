@@ -19,8 +19,7 @@
   <section class="section landing s1">
     <div class="image-container">
       <img src="assets/images/contactBanner.png" alt="" style="width: 100%;">
-      <p class="bannerH1">Services</p>
-      <p class="bannerp ">PUMPS</p>
+      <p class="bannerH1">About Us</p>
     </div>
   </section>
 
