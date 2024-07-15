@@ -87,11 +87,64 @@
    top: 45%;
    right: 10%;
   }
-  .sicon{
+  
+  .social-icon {
     padding-right: 20px;
+      display: inline-block;
+      width: 70px; 
+      height: 70px; 
+      background-color: #fff; /* White background */
+      border-radius: 50%; /* Circle shape */
+      padding: 23px;
+      font-size: 23px;
+      text-align: center;
+      margin-right: 20px;
+     
+    }
 
-  }
+    .fb{
+      color: #3E51FF; 
+      
+    }
 
+    .ig i {
+           
+            background: linear-gradient(to right, #CD28E8 0%, #FD1AAF 29%, #E9B122 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+
+    .wa{
+      color: #13B28C;
+   
+      
+    }
+
+
+    .fb:hover{
+      color:white ; 
+      background-color:#3E51FF ;
+      
+    }
+    .ig:hover{
+      background: linear-gradient(to right, #CD28E8 0%, #FD1AAF 29%, #E9B122 100%);
+      
+    }
+
+    .ig:hover i {
+            color: white !important;
+            -webkit-background-clip: border-box; /* Reset background-clip to default */
+            -webkit-text-fill-color: white;
+            background-clip: border-box;
+            text-fill-color: white;
+        }
+
+    .wa:hover{
+         color:white ;
+      background-color:#13B28C ;
+    }
 
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
