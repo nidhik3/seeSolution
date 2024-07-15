@@ -144,7 +144,7 @@
     }
   }
 
-  .bw {
+  .bw , .bw:hover{
     background-color: black;
     color: #fff;
     font-size: 20px;
@@ -168,12 +168,13 @@
     font-size: 20px;
   }
 
-  .ww {
+  .ww, .ww:hover {
     background-color: #fff;
     color: black;
     font-size: 18px;
     padding: 10px;
   }
+
 
   .w {
     background-color: transparent;
@@ -246,7 +247,7 @@
   }
 
   p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .side{
     font-size: 25px;
@@ -346,7 +347,7 @@
   }
   
   .pictures:hover .pheading {
-    bottom: 110px; /* Move up when hovered */
+    bottom: 90px; /* Move up when hovered */
   }
   
   .pictures:hover .ppara {

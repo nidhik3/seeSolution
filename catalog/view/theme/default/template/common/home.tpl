@@ -50,8 +50,8 @@
       <div class="overlay-c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
         <div class="content1">
           <a class="bw">ABOUT US</a>
-          <h6 class="heading" style="width: 50%;">OUR SOLUTION</h6>
-          <p class="pb-3" style="width: 85%;">We are Turnkey contractors for Design, Construction, Erection and
+          <h6 class="heading pt-4" style="width: 50%;line-height: .8;">OUR SOLUTION</h6>
+          <p class="py-4 " style="width: 85%;">We are Turnkey contractors for Design, Construction, Erection and
             Commissioning of water and waste
             treatment plants, Supply, Erection & Commissioning of Onshore and Offshore Large Diameter Piping’s. Water
             is
@@ -80,25 +80,25 @@
         <div class="col-md-3 pictures">
           <img src="assets/images/chemical.png" alt="" class="pro">
           <h3 class="pheading">Chemical</h3>
-          <p class="ppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores officia placeat, accusamus nam harum debitis incidunt et ea, quis magni nobis temporibus quasi nihil eius quam enim!</p>
+          <p class="ppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores</p>
         </div>
       
         <div class="col-md-3 pictures">
           <img src="assets/images/pump.png" alt="" class="pro">
           <h3 class="pheading">Pump</h3>
-          <p class="ppara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, magni error praesentium, rem quod enim vitae nesciunt ea fugit hic aut illum! Ipsam, voluptatem. Libero velit asperiores cupiditate laborum perspiciatis.</p>
+          <p class="ppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores</p>
         </div>
       
         <div class="col-md-3 pictures">
           <img src="assets/images/waterM.png" alt="" class="pro">
           <h3 class="pheading">Water Management</h3>
-          <p class="ppara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab necessitatibus nobis odit reiciendis eligendi laudantium, totam repellendus nulla sapiente alias voluptatem vero consequatur, omnis quibusdam? Molestias quis dolorum molestiae voluptates?</p>
+          <p class="ppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores</p>
         </div>
       
         <div class="col-md-3 pictures">
           <img src="assets/images/maintenance.png" alt="" class="pro">
           <h3 class="pheading">Maintenance</h3>
-          <p class="ppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempore, rem veniam unde quidem aliquid. Ullam facere necessitatibus amet accusantium odit aliquid deleniti labore, temporibus maiores aliquam cupiditate illo iusto?</p>
+          <p class="ppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores</p>
         </div>
       </div>
       

@@ -4,10 +4,7 @@
     content: none;
   }
 
-  section#about img {
-    /* width: 100%;
-    height: 100%; */
-  }
+
 </style>
 <link rel="stylesheet" href="assets/css/homestyle.css">
 <link rel="stylesheet" href="assets/css/n.css">
@@ -40,8 +37,8 @@
               <a class="bw">OUR</a>
             </div>
 
-            <h5 class="heading pl-3 pt-3">OUR CULTURE</h5>
-            <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 about-row clientR about-content">
+            <h5 class="heading pl-3">OUR CULTURE</h5>
+            <div class="col-lg-12 pt-4 pt-lg-0 order-2 m-0 order-lg-1 about-row clientR about-content">
               <p class="PZ">Technology / Product may not always win but execution always wins. Putting
                 it simply means that talented people who work closely together for the good of the organization are the
                 real reason why companies succeed. Developing this company culture is strategically important for
@@ -373,21 +370,21 @@
 
     </div>
     <div class="container" style="margin-bottom:45px;">
-      <h1 style="font-size: 25px;">Dear friends, colleagues and valued customers</h1><br /><br />
-      <p style="font-size: 18px;">From humble beginnings in 2003, KSP Hydro Engineers Pvt. Ltd. has been on an epic
+      <h1  class="m-msg">Dear friends, colleagues and valued customers</h1><br />
+      <p  class="m-msg">From humble beginnings in 2003, KSP Hydro Engineers Pvt. Ltd. has been on an epic
         journey towards business excellence and its promise to deliver the very best to its customers. SEEs logo depicts
         its vision to become a one-stop solution shop for its customers within the bouquet of water & wastewater
         management.</p>
-      <p style="font-size: 18px;">Pavati meaning Clear Water Beyond Imagination is our motive for everyone on this
+      <p  class="m-msg">Pavati meaning Clear Water Beyond Imagination is our motive for everyone on this
         earth. Let us all join hands to create a better earth for generations to come.</p>
-      <p style="font-size: 18px;">Necessity is the mother of Invention. Providing business excellence & delivering best
+      <p  class="m-msg">Necessity is the mother of Invention. Providing business excellence & delivering best
         of products to our renowned customers has been a part of our epic journey. We believe in a healthy environmental
         balance, which has resulted in building a strong team of youth to cultivate the new age thinking. We strongly
         believe that the future of our group depends on the way SEE, Its Team including all teammates esteemed customers
         & support partners including vendors jointly care for serenity of environment.</p>
       <br />
       <i>
-        <h2>Lets do it for our customers for what they actually need in the way we endeavor to provide the best of our
+        <h2 class="m-msg">Lets do it for our customers for what they actually need in the way we endeavor to provide the best of our
           products & services......</h2>
       </i>
 
