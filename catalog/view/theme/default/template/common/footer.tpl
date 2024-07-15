@@ -113,7 +113,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            text-fill-color: transparent;
+            /* text-fill-color: transparent; */
         }
 
     .wa{
@@ -138,7 +138,7 @@
             -webkit-background-clip: border-box; /* Reset background-clip to default */
             -webkit-text-fill-color: white;
             background-clip: border-box;
-            text-fill-color: white;
+            /* text-fill-color: white; */
         }
 
     .wa:hover{

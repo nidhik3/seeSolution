@@ -3,6 +3,8 @@
 
 
 <main id="main">
+
+  <!-- ========BANNER========= -->
   <section class="section landing s1">
     <img src="assets/images/banner.png" alt="" style="width: 100%;">
     <span class="top-section">
@@ -33,6 +35,9 @@
 
   </section>
 
+
+
+   <!-- =======OUR SOLUTIONS=========== -->
   <section class="space" style="padding-top: 130px;">
     <div class="row c1 " style="height: 100vh; align-items: center;">
       <div class="col-md-3">
@@ -62,49 +67,47 @@
     </div>
   </section>
 
+
+   <!-- ====products and services========= -->
   <section class="space-y">
     <div class="container">
       <div class="col-md-12 text-center">
         <a class="bw">PRODUSTS &</a>
         <h5 class="heading pb-5 pt-3">SERVICES</h2>
       </div>
+
       <div class="col-md-12 d-flex justify-content-around">
         <div class="col-md-3 pictures">
           <img src="assets/images/chemical.png" alt="" class="pro">
           <h3 class="pheading">Chemical</h3>
-          <div class="overlay">
-            <p class="ppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores officia placeat, accusamus nam harum debitis incidunt et ea, quis magni nobis temporibus quasi nihil eius quam enim!</p>
-          </div>
+          <p class="ppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores officia placeat, accusamus nam harum debitis incidunt et ea, quis magni nobis temporibus quasi nihil eius quam enim!</p>
         </div>
+      
         <div class="col-md-3 pictures">
           <img src="assets/images/pump.png" alt="" class="pro">
           <h3 class="pheading">Pump</h3>
-          <div class="overlay">
-            <p class="ppara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, magni error praesentium, rem quod enim vitae nesciunt ea fugit hic aut illum! Ipsam, voluptatem. Libero velit asperiores cupiditate laborum perspiciatis.</p>
-          </div>
+          <p class="ppara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, magni error praesentium, rem quod enim vitae nesciunt ea fugit hic aut illum! Ipsam, voluptatem. Libero velit asperiores cupiditate laborum perspiciatis.</p>
         </div>
+      
         <div class="col-md-3 pictures">
           <img src="assets/images/waterM.png" alt="" class="pro">
           <h3 class="pheading">Water Management</h3>
-          <div class="overlay">
-            <p class="ppara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab necessitatibus nobis odit reiciendis eligendi laudantium, totam repellendus nulla sapiente alias voluptatem vero consequatur, omnis quibusdam? Molestias quis dolorum molestiae voluptates?</p>
-          </div>
+          <p class="ppara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab necessitatibus nobis odit reiciendis eligendi laudantium, totam repellendus nulla sapiente alias voluptatem vero consequatur, omnis quibusdam? Molestias quis dolorum molestiae voluptates?</p>
         </div>
+      
         <div class="col-md-3 pictures">
           <img src="assets/images/maintenance.png" alt="" class="pro">
           <h3 class="pheading">Maintenance</h3>
-          <div class="overlay">
-            <p class="ppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempore, rem veniam unde quidem aliquid. Ullam facere necessitatibus amet accusantium odit aliquid deleniti labore, temporibus maiores aliquam cupiditate illo iusto?</p>
-          </div>
+          <p class="ppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempore, rem veniam unde quidem aliquid. Ullam facere necessitatibus amet accusantium odit aliquid deleniti labore, temporibus maiores aliquam cupiditate illo iusto?</p>
         </div>
       </div>
       
       
-      
-
     </div>
   </section>
 
+
+  <!-- =====ASSESSMENT============ -->
   <section class="image-wrapper">
     <img src="assets/images/sec.png" alt="" class="background-image">
     <div class="overlay-content">
@@ -113,9 +116,9 @@
       <a class="w">Book Now</a>
     </div>
   </section>
-  
-  
 
+
+   <!-- =======GALLERY====== -->
   <section class="space-y">
     <div class="container">
       <div class="col-md-12 text-center">

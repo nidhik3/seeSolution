@@ -312,6 +312,46 @@
 
 
   /* =========== */
-
+  .pictures {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .pro {
+    /* width: 100%; */
+    display: block;
+  }
+  
+  .pheading {
+    position: absolute;
+    bottom: 10px;
+    left: 22px;
+    color: white;
+    font-size: 34px !important;
+    padding: 5px;
+    transition: bottom 0.3s ease-in-out;
+    z-index: 2;
+    font-weight: 600;
+  }
+  
+  .ppara {
+    position: absolute;
+    bottom: -100%; /* Start hidden below the image */
+    left: 22px;
+    color: white;
+    padding: 5px;
+    width: calc(100% - 20px);
+    transition: bottom 0.3s ease-in-out;
+    z-index: 1;
+  }
+  
+  .pictures:hover .pheading {
+    bottom: 110px; /* Move up when hovered */
+  }
+  
+  .pictures:hover .ppara {
+    bottom: 10px; /* Move up into view */
+  }
+  
 
   /* =========== */
