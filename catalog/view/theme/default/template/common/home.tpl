@@ -72,8 +72,8 @@
   <section class="space-y">
     <div class="container">
       <div class="col-md-12 text-center">
-        <a class="bw">PRODUSTS &</a>
-        <h5 class="heading pb-5 pt-3">SERVICES</h2>
+        <a class="bw">OUR</a>
+        <h5 class="heading pb-5 pt-3">PRODUCTS & SERVICES</h2>
       </div>
 
       <div class="col-md-12 d-flex justify-content-around">

@@ -1,3 +1,7 @@
+*{
+  font-family: Inter;
+}
+
 .image-container {
     position: relative;
     text-align: center;
@@ -20,7 +24,7 @@
 
   .image-container .bannerp {
     position: absolute;
-    top: 57%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -54,13 +58,13 @@
   .form-control {
     display: block;
     width: 79%  !important;
-    height: 5vh !important;
+    height: 6vh !important;
 
   }
   .form-controls {
     display: block;
     width: 79%  !important;
-    height: 8vh !important;
+    height: 10vh !important;
     padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
@@ -82,8 +86,8 @@
   }
  
   .PZ{
-    font-weight: 400;
-    font-size: 21px;
+    /* font-weight: 400; */
+    font-size: 20px;
     text-align: left;
     line-height: 22px;
   }

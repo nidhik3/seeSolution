@@ -370,7 +370,7 @@
 
     </div>
     <div class="container" style="margin-bottom:45px;">
-      <h1  class="m-msg">Dear friends, colleagues and valued customers</h1><br />
+      <p  class="m-msg">Dear friends, colleagues and valued customers</p><br />
       <p  class="m-msg">From humble beginnings in 2003, KSP Hydro Engineers Pvt. Ltd. has been on an epic
         journey towards business excellence and its promise to deliver the very best to its customers. SEEs logo depicts
         its vision to become a one-stop solution shop for its customers within the bouquet of water & wastewater
@@ -384,8 +384,8 @@
         & support partners including vendors jointly care for serenity of environment.</p>
       <br />
       <i>
-        <h2 class="m-msg">Lets do it for our customers for what they actually need in the way we endeavor to provide the best of our
-          products & services......</h2>
+        <p class="m-msg">Lets do it for our customers for what they actually need in the way we endeavor to provide the best of our
+          products & services......</p>
       </i>
 
     </div>

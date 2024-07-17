@@ -30,8 +30,10 @@
       <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1" style=" line-height: 30px; ">
         <br />
         <div class="row">
+          
+          <!-- RAW WATER PUMPING -->
           <div class="col-lg-6 col-md-6 col-sm-12 p-0">
-            <img src="assets/images/rawWater.png" style="width: 100%;height: 80%;padding: 0rem ;" alt="Swimming">
+            <img src="assets/images/rawWater.png" style="width: 100%;height: 90%;padding: 0rem ;" alt="Swimming">
           </div>
           <div class="col-lg-6 about-row" data-aos="fade-left" data-aos-duration="1000">
             <div class="title">
@@ -50,7 +52,10 @@
             </ol>
           </div>
 
-          <div class="col-lg-6 about-row" data-aos="fade-right" data-aos-duration="1000">
+
+          <!-- BUILDING/INSTITUTIONAL PUMPING -->
+          <div class="col-lg-6 about-row" data-aos="fade-right" data-aos-duration="1000" style="
+          padding-left: 150px; ">
             <div class="title">
               <a class="bw">
                 Building/Institutional Pumping
@@ -67,43 +72,46 @@
           </div>
 
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="assets/images/buildings.png" style="width: 100%;height: 80%;" alt="Swimming">
+            <img src="assets/images/buildings.png" style="width: 100%;height: 90%;" alt="Swimming">
           </div>
 
-          
-          <div class="col-lg-6 about-row pb-5" data-aos="fade-right" data-aos-duration="1000">
-            <div class="title">
-              <a class="bw">
-                Specialized Pumps–Air Operated
-              </a>
+
+          <!-- SPECIALIZED PUMPS–AIR OPERATED -->
+          <div class="container">
+            <div class="col-lg-6 about-row pb-5" data-aos="fade-right" data-aos-duration="1000">
+              <div class="title">
+                <a class="bw">
+                  Specialized Pumps–Air Operated
+                </a>
+              </div>
+
+              <ol class="ul-li liTop" style="list-style-type: disc;">
+                <li style="text-align: left; font-size: 18px;">Oil Pumping.</li>
+                <li style="text-align: left; font-size: 18px;">Greece Pumping.</li>
+                <li style="text-align: left; font-size: 18px;">High Viscosity Fluids/Gel Pumping.</li>
+                <li style="text-align: left; font-size: 18px;">Powder Pumping.</li>
+                <li style="text-align: left; font-size: 18px;">Thick Paste/Slurry Pumping.</li>
+                <li style="text-align: left; font-size: 18px;">Ink/Pigment Pumping.</li>
+                <li style="text-align: left; font-size: 18px;">Hazardous Liquid Pumping.</li>
+              </ol>
             </div>
 
-            <ol class="ul-li liTop" style="list-style-type: disc;">
-              <li style="text-align: left; font-size: 18px;">Oil Pumping.</li>
-              <li style="text-align: left; font-size: 18px;">Greece Pumping.</li>
-              <li style="text-align: left; font-size: 18px;">High Viscosity Fluids/Gel Pumping.</li>
-              <li style="text-align: left; font-size: 18px;">Powder Pumping.</li>
-              <li style="text-align: left; font-size: 18px;">Thick Paste/Slurry Pumping.</li>
-              <li style="text-align: left; font-size: 18px;">Ink/Pigment Pumping.</li>
-              <li style="text-align: left; font-size: 18px;">Hazardous Liquid Pumping.</li>
-            </ol>
-          </div>
+            <div class="col-lg-6 about-row pb-5" data-aos="fade-down-left" data-aos-duration="1000">
+              <div class="title">
+                <a class="bw">
+                  Oilfield
+                </a>
+              </div>
 
-          <div class="col-lg-6 about-row pb-5" data-aos="fade-down-left" data-aos-duration="1000">
-            <div class="title">
-              <a class="bw">
-                Oilfield
-              </a>
+              <ol class="ul-li liTop" style="list-style-type: none">
+
+                <li style=" font-size: 18px">
+                  <img src="assets/img/images/pump-1.png" alt="Pump">
+                  <img src="assets/img/images/pump-2.jpeg" alt="">
+                </li>
+
+              </ol>
             </div>
-
-            <ol class="ul-li liTop" style="list-style-type: none">
-
-              <li  style=" font-size: 18px">
-                <img src="assets/img/images/pump-1.png" alt="Pump">
-                <img src="assets/img/images/pump-2.jpeg" alt="">
-              </li>
-              
-            </ol>
           </div>
 
         </div>

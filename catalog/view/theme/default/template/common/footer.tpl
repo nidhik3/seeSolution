@@ -23,7 +23,7 @@
 
   .overlay-content1 {
     position: absolute;
-    top: 50%;
+    top: 23%;
     left: 23%;
     transform: translate(-50%, -50%);
     text-align: start;
@@ -84,7 +84,7 @@
 
   .socialI {
    position: absolute;
-   top: 45%;
+   top: 44%;
    right: 10%;
   }
   
@@ -150,7 +150,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <div class="foot">
-  <div class="slider">
+  <!-- <div class="slider">
     <div class="slides">
       <div class="slide"><img src="assets/images/buildings.png" alt="Image 1"></div>
       <div class="slide "><img src="assets/images/culture.png" alt="Image 2"></div>
@@ -169,10 +169,22 @@
       <span class="dot pt-3" onclick="currentSlide(2)"></span>
       <span class="dot pt-3" onclick="currentSlide(3)"></span>
     </div>
-  </div>
+  </div> -->
 
   <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a> -->
   <!-- <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+
+  <div class="fimage">
+    <img src="assets/images/footer/fimg.jpg" alt="" style="width: 100%; height: 60%;">
+    <div class="container">
+      <div class="overlay-content1  text-start">
+        <a class="ww pt-3">LET'S START</a>
+        <h4 class="heading pb-5" style="font-weight: normal;">SHOP OUR PREMIUM <br>
+          PRODUCTS</h4>
+        <a class="w">Shop Now</a>
+      </div>
+    </div>
+  </div>
   <footer style="background: #0E2E45; color:#fff" id="footer">
     <div class="socialI">
       <a href="" class="social-icon fb" target="_blank">
@@ -191,12 +203,11 @@
         <div class=" col-md-5">
           <a href="index.php?route=common/home"><img src="assets/images/footer/footerLogo.png" title="See Solutions"
               alt="See Solutions" class="img-responsive" /></a>
-          <div class="copyright">
-            &copy; Copyright <strong><span>See Solutions</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            Designed by <a href="https://theodin.in">The Odin</a>
-          </div>
+              <div class="row">
+                <div class="copyright">
+                 <p style="width: 70%; padding-left: 15px;">We are Turnkey contractors for Design, Construction, Erection and Commissioning of water and waste treatment plants, Supply, Erection & Commissioning of Onshore and Offshore Large Diameter Piping’s.</p>
+                </div>
+              </div>
         </div>
 
         <div class="col-md-3">
@@ -225,7 +236,7 @@
 
               </li>
               <li>
-                <div class="row pt-4">
+                <div class="row">
                   <div class="col-md-2 d-flex align-items-center">
                     <i style="margin-right: 6px; font-size: 17px;" class="icofont-phone"></i>
                   </div>
@@ -235,7 +246,7 @@
                 </div>
               </li>
               <li>
-                <div class="row pt-4">
+                <div class="row">
                   <div class="col-md-2 pt-3 d-flex">
                     <i style="margin-right: 6px; font-size: 17px;" class="fa-solid fa-location-dot"></i>
                   </div>
@@ -247,6 +258,11 @@
               </li>
             </ul>
           </address>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="copyright">
+          &copy; Copyright 2024  <strong><span>See Solutions</span></strong>. All Rights Reserved.  Designed by  <i><a href="https://theodin.in">The Odin</a></i>
         </div>
       </div>
 

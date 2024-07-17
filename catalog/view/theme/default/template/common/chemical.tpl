@@ -46,7 +46,7 @@
                         chemicals
                     </a>
                     <h3 class="heading pt-4 ">INDUSTRIES <br>WE SERVE</h3>
-                    <p class="font-bold paragraph-about" style="padding: 0px 180px;">
+                    <p class="font-bold paragraph-about" style="padding: 0px 122px; font-size: 18px;">
                         SEE delivers a broad portfolio of chemical technolog Regarding industrial water treatment
                         services to its clients in:<br />
                     </p>

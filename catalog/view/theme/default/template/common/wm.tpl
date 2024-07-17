@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="assets/css/homestyle.css">
-<link rel="stylesheet" href="assets/css/n.css">
+<link rel="stylesheet" href="assets/css/n.css"> 
 <?php echo $header; ?>
 
 <main id="main">
@@ -55,47 +55,43 @@
     color: #fff;
   }
  */
-    /* .overlay {
+    .overlay3 {
       background-color: rgba(0, 0, 0, 0.3);
-    } */
-
-    .overlay-content1 {
-      top: 75% !important;
     }
 
-    .overlay,
-    [class*="overlay"] {
+    .overlay3,
+    [class*="overlay3"] {
       position: absolute;
       height: 100%;
-      /* width: 100%; */
+      width: 100%;
       z-index: 5;
       display: block;
-      top: 50%;
+      top: 0;
       left: 0;
       z-index: 2;
-      /* background-color: rgba(0, 0, 0, 0.6); */
+      background-color: rgba(0, 0, 0, 0.6);
       transition: background-color 1s ease;
     }
 
-    .overlay.green:hover {
+    /* .overlay3.green:hover {
       background-color: #b9cb2a;
     }
 
-    .overlay.white:hover {
+    .overlay3.white:hover {
       background-color: antiquewhite;
     }
 
-    .overlay.yellow:hover {
+    .overlay3.yellow:hover {
       background-color: #fecd0b;
     }
 
-    .overlay.dark-green:hover {
+    .overlay3.dark-green:hover {
       background-color: #216f37;
     }
 
-    .overlay.orange:hover {
+    .overlay3.orange:hover {
       background-color: #ffb428;
-    }
+    } */
 
     /* ================================== */
     .svg-wrapper {
@@ -154,10 +150,6 @@
       stroke-dashoffset: 0;
       stroke-dasharray: 1120;
     }
-
-    .overlay-content1 {
-      left: 50%;
-    }
   </style>
 
   <section id="about" class="about" style="padding: 0px;">
@@ -173,7 +165,7 @@
               <h3 class="text">Swimming pool & lake revival</h3>
             </svg>
           </div>
-          <div class="overlay green"></div>
+          <div class="overlay3 green"></div>
         </a>
       </div>
 
@@ -187,7 +179,7 @@
               <h3 class="text">Waste Water Management</h3>
             </svg>
           </div>
-          <div class="overlay white"></div>
+          <div class="overlay3 white"></div>
         </a>
       </div>
 
@@ -201,7 +193,7 @@
               <h3 class="text">Water Treatment Plant</h3>
             </svg>
           </div>
-          <div class="overlay yellow"></div>
+          <div class="overlay3 yellow"></div>
         </a>
       </div>
 
@@ -215,7 +207,7 @@
               <h3 class="text">Pumping Systems</h3>
             </svg>
           </div>
-          <div class="overlay green"></div>
+          <div class="overlay3 green"></div>
         </a>
       </div>
 
@@ -229,7 +221,7 @@
               <h3 class="text">Reverse Osmosis System</h3>
             </svg>
           </div>
-          <div class="overlay dark-green"></div>
+          <div class="overlay3 dark-green"></div>
         </a>
       </div>
 
@@ -243,7 +235,7 @@
               <h3 class="text">Fire Fighting</h3>
             </svg>
           </div>
-          <div class="overlay orange"></div>
+          <div class="overlay3 orange"></div>
         </a>
       </div>
 
